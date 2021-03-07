@@ -1,0 +1,238 @@
+<?php wp_head(); ?>
+
+</head>
+<body>
+	
+	<header class="head_items">
+		<div class="head_items-wrapper indent">
+			<div class="head_items-wrapper_up">
+				<div class="head_items-wrapper_up_title">
+					<h1 class="flex-title-mob"><a href="index.html">Wine Provinces</a></h1>
+				</div>
+	
+				<!-- big menu -->
+				<menu class="head_items-wrapper_up_menu">
+					<ul>
+						<a href="catalog.html">каталог</a>
+						<a href="proba.html">проба</a>
+						<a href="about-us.html">о нас</a>
+						<a href="contacts.html">контакты</a>
+					</ul>
+					<ul>
+						<a href="login.html">войти</a>
+						<a href="sign-up.html">зарегистрироваться</a>
+					</ul>
+					<ul class="head_items-wrapper_up_menu_icons">
+						<a href="basket.html"><img src="assets/images/icons/icons8-shopping-bag-96.png" alt="shopping-bag"></a>
+						<a href="search.html"><img src="assets/images/icons/icons8-search.svg" alt="search"></a>
+					</ul>
+				</menu>
+	
+				<!-- mobile menu -->
+				<!-- the styles of location in the media-common file -->
+				<menu class="head_items-wrapper_up_menu_mob">
+					<nav>
+						<div class="head_items-wrapper_up_menu_mob_close">
+							<img src="assets/images/icons/icons8-умножение-96.png" class="close" alt="">
+						</div>
+						<div class="head_items-wrapper_up_menu_mob_search">
+							<input type="text" placeholder="Search">
+						</div>
+						<a href="catalog.html">каталог</a>
+						<a href="proba.html">проба</a>
+						<a href="about-us.html">о нас</a>
+						<a href="contacts.html">контакты</a>
+						<div class="auth">
+							<div>
+								<img src="assets/images/icons/icons8-login-96.png" alt="">
+								<a href="login.html">войти</a>
+							</div>
+							<div>
+								<img src="assets/images/icons/icons8-login-rounded-96.png" alt="">
+								<a href="sign-up.html">зарегистрироваться</a>
+							</div>
+						</div>
+					</nav>
+					<div class="head_items-wrapper_up_menu_mob_icons">
+						<a href="basket.html"><img src="assets/images/icons/icons8-shopping-bag-96.png" alt="shopping-bag"></a>
+						<a href="search.html"><img src="assets/images/icons/icons8-search.svg" alt="search"></a>
+						<img src="assets/images/icons/icons8-menu.svg" class="head_items-wrapper_up_menu_mob_button">
+					</div>
+				</menu>
+			</div>
+			<div class="head_items-wrapper-main_text">
+				<p>Вино - алкогольный напиток, получаемый полным или частичным спиртовым брожением виноградного сока, иногда с добавлением спирта и других веществ — так называемое «креплёное вино». Наука, изучающая вина, — энология.</p>
+			</div>
+		</div>
+	</header>
+	
+	<main class="indent">
+	
+		<section class="gallery">
+			<h2 class="common-title">Gallery</h2>
+			<div class="gallery-slider">
+				<img src="assets/images/pexels-anhzoe-tran-5800949.jpg" alt="">
+				<img src="assets/images/pexels-juan-pablo-serrano-arenas-1047333.jpg" alt="">
+				<img src="assets/images/pexels-anhzoe-tran-5800949.jpg" alt="">
+				<img src="assets/images/pexels-luiz-m-santos-760280.jpg" alt="">
+			</div>
+		</section>
+	
+		<section class="proba">
+			<h2 class="common-title">Proba</h2>
+			<div class="proba-info">
+				<div class="proba-info-section">
+					<div class="proba-info-section-wrapper">
+						<div>
+							<img src="assets/images/pexels-balázs-burján-3487715.jpg" alt="">
+						</div>
+						<img src="assets/images/icons/icons8-medal-first-place-96.png" class="proba-info-section-wrapper-overflow_img" alt="">
+					</div>
+					<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Magnam a similique eligendi eum architecto sunt earum ut dolorum nesciunt molestiae facere minus autem dolore quod, iusto alias modi soluta temporibus?</p>
+				</div>
+				<div class="proba-info-section">
+					<div class="proba-info-section-wrapper">
+						<div>
+							<img src="assets/images/pexels-anhzoe-tran-5800951.jpg" alt="">
+						</div>
+						<img src="assets/images/icons/icons8-grapes-96.png" class="proba-info-section-wrapper-overflow_img"  alt="">
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla quibusdam iste animi blanditiis aperiam labore rerum, nam reprehenderit id incidunt asperiores nihil impedit eum sit non voluptatem dolorum ratione.</p>
+				</div>
+				<div class="proba-info-section">
+					<div class="proba-info-section-wrapper">
+						<div>
+							<img src="assets/images/pexels-balázs-burján-3487715.jpg" alt="">
+						</div>
+						<img src="assets/images/icons/icons8-medal-first-place-96.png" class="proba-info-section-wrapper-overflow_img" alt="">
+					</div>
+					<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Magnam a similique eligendi eum architecto sunt earum ut dolorum nesciunt molestiae facere minus autem dolore quod, iusto alias modi soluta temporibus?</p>
+				</div>
+				<div class="proba-info-section">
+					<div class="proba-info-section-wrapper">
+						<div>
+							<img src="assets/images/pexels-anhzoe-tran-5800951.jpg" alt="">
+						</div>
+						<img src="assets/images/icons/icons8-grapes-96.png" alt="" class="proba-info-section-wrapper-overflow_img">
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla quibusdam iste animi blanditiis aperiam labore rerum, nam reprehenderit id incidunt asperiores nihil impedit eum sit non voluptatem dolorum ratione.</p>
+				</div>
+				<div class="proba-info-section">
+					<div class="proba-info-section-wrapper">
+						<div>
+							<img src="assets/images/pexels-balázs-burján-3487715.jpg" alt="">
+						</div>
+						<img src="assets/images/icons/icons8-medal-first-place-96.png" class="proba-info-section-wrapper-overflow_img" alt="">
+					</div>
+					<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Magnam a similique eligendi eum architecto sunt earum ut dolorum nesciunt molestiae facere minus autem dolore quod, iusto alias modi soluta temporibus?</p>
+				</div>
+				<div class="proba-info-section">
+					<div class="proba-info-section-wrapper">
+						<div>
+							<img src="assets/images/pexels-anhzoe-tran-5800951.jpg" alt="">
+						</div>
+						<img src="assets/images/icons/icons8-grapes-96.png" alt="" class="proba-info-section-wrapper-overflow_img">
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla quibusdam iste animi blanditiis aperiam labore rerum, nam reprehenderit id incidunt asperiores nihil impedit eum sit non voluptatem dolorum ratione.</p>
+				</div>
+			</div>
+		</section>
+	
+		<section class="feedback">
+			<h2 class="common-title">Feedback</h2>
+			<div class="feedback_comments">
+				<div class="feedback_comments-item">
+					<img src="assets/images/icons/icons8-уолтер-уайт.svg" alt="">
+					<div class="feedback_comments-item_up">
+						<div class="feedback_comments-item_up_author">
+							<span>Святослав Онисимович</span>
+							<span>29.10.2019</span>
+						</div>
+						<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Rem earum tenetur deleniti consequatur maiores similique quos. Earum explicabo maxime assumenda voluptatum molestias, blanditiis nihil labore, itaque est expedita reprehenderit iure.</p>
+					</div>
+				</div>
+				<div class="feedback_comments-item">
+					<img src="assets/images/icons/icons8-мумия.svg" alt="">
+					<div class="feedback_comments-item_up">
+						<div class="feedback_comments-item_up_author">
+							<span>Алексей Павлович</span>
+							<span>04.09.2020</span>
+						</div>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate fuga consequuntur at atque in culpa alias eos officia rerum sunt quaerat dolorum, perferendis sapiente dicta temporibus expedita! Voluptates, numquam.</p>
+					</div>
+				</div>
+				<div class="feedback_comments-item">
+					<img src="assets/images/icons/icons8-маска-анонимуса.svg" alt="">
+					<div class="feedback_comments-item_up">
+						<div class="feedback_comments-item_up_author">
+							<span>Андрей Смирнов</span>
+							<span>14.05.2020</span>
+						</div>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi placeat, sapiente sit! Debitis minus impedit, harum reiciendis laborum enim repellat amet non mollitia deserunt tenetur modi! Minus minima, vitae.</p>
+					</div>
+				</div>
+			</div>
+			<button class="btn-leave-review">оставить отзыв</button>
+		
+			<form class="modal">
+				<div class="modal-window">
+					<div>
+						<input type="text" placeholder="Имя">
+						<input type="text" placeholder="Фамилия">
+					</div>
+					<input type="email" placeholder="Email" class="email">
+					<textarea placeholder="Отзыв ..."></textarea>
+					<button>отправить</button>
+				</div>
+			</form>
+		</section>
+		<section class="catalog">
+			<h2 class="common-title">Catalog</h2>
+			<div class="catalog-cart_section">
+				<div>
+					<img src="assets/images/pexels-ylanite-koppens.jpg" alt="">
+					<section class="catalog-cart_section-content">
+						<h3>Jameson</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in neque quis libero fermentum dapibus. Fusce in porta libero. Morbi</p>
+						<section>
+							<span>10$</span>
+							<span>10 purchases</span>
+						</section>
+					</section>
+					<button><a href="wine-card.html">learn more</a></button>
+				</div>
+				<div>
+					<img src="assets/images/pexels-ylanite-koppens.jpg" alt="">
+					<section class="catalog-cart_section-content">
+						<h3>Jameson</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in neque quis libero fermentum dapibus. Fusce in porta libero. Morbi</p>
+						<section>
+							<span>10$</span>
+							<span>10 purchases</span>
+						</section>
+					</section>
+					<button><a href="wine-card.html">learn more</a></button>
+				</div>
+				<div>
+					<img src="assets/images/pexels-ylanite-koppens.jpg" alt="">
+					<section class="catalog-cart_section-content">
+						<h3>Jameson</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in neque quis libero fermentum dapibus. Fusce in porta libero. Morbi</p>
+						<section>
+							<span>10$</span>
+							<span>10 purchases</span>
+						</section>
+					</section>
+					<button><a href="wine-card.html">learn more</a></button>
+				</div>
+			</div>
+		</section>
+	</main>
+
+
+	<?php wp_footer(); ?>
+	<?php get_footer(); ?>
+
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<?php wp_head() ?>
+
+</head>
+<body>
+
+	<header class="common-header">
+		<div class="indent">
+			<div class="common-header_wrapper">
+				<h1 class="common-header_wrapper_title"><a href="index.html">Wine Provinces</a></h1>
+				<menu class="common-header_wrapper_menu">
+					<ul class="common-header_wrapper_menu_page">
+						<a href="catalog.html">каталог</a>
+						<a href="proba.html">проба</a>
+						<a href="about-us.html">о нас</a>
+						<a href="contacts.html">контакты</a>
+					</ul>
+					<ul class="common-header_wrapper_menu_authorization">
+						<a href="login.html">войти</a>
+						<a href="sign-up.html">зарегистрироваться</a>
+					</ul>
+					<ul class="common-header_wrapper_menu_authorization_icons">
+						<a href="basket.html"><img src="assets/images/icons/icons8-shopping-bag-96.png" alt="shopping-bag"></a>
+						<a href="search.html"><img src="assets/images/icons/icons8-search.svg" alt="search"></a>
+					</ul>
+				</menu>
+	
+				<!-- mobile menu -->
+				<!-- the styles of location in the media-common file -->
+				<menu class="head_items-wrapper_up_menu_mob">
+					<nav>
+						<div class="head_items-wrapper_up_menu_mob_close">
+							<img src="assets/images/icons/icons8-умножение-96.png" class="close" alt="">
+						</div>
+						<div class="head_items-wrapper_up_menu_mob_search">
+							<input type="text" placeholder="Search">
+						</div>
+						<a href="catalog.html">каталог</a>
+						<a href="proba.html">проба</a>
+						<a href="about-us.html">о нас</a>
+						<a href="contacts.html">контакты</a>
+						<div class="auth">
+							<div>
+								<img src="assets/images/icons/icons8-login-96.png" alt="">
+								<a href="login.html">войти</a>
+							</div>
+							<div>
+								<img src="assets/images/icons/icons8-login-rounded-96.png" alt="">
+								<a href="sign-up.html">зарегистрироваться</a>
+							</div>
+						</div>
+					</nav>
+					<div class="head_items-wrapper_up_menu_mob_icons">
+						<a href="basket.html"><img src="assets/images/icons/icons8-shopping-bag-96.png" alt="shopping-bag"></a>
+						<a href="search.html"><img src="assets/images/icons/icons8-search.svg" alt="search"></a>
+						<img src="assets/images/icons/icons8-menu.svg" class="head_items-wrapper_up_menu_mob_button">
+					</div>
+				</menu>
+			</div>
+		</div>
+	</header>
+	
+	<div class="place-an-order">
+		<div class="indent">
+			
+			<div class="card">
+				<div class="card_wrap">
+					<div class="card_slide-goods">
+						<img src="assets/images/pexels-ylanite-koppens.jpg">
+						<img src="assets/images/pexels-ylanite-koppens.jpg">
+						<img src="assets/images/pexels-ylanite-koppens.jpg">
+					</div>
+	
+					<section class="card_slide-button">
+						<img src="assets/images/icons/icons8-точка-в-кружке-96.png">
+						<img src="assets/images/icons/icons8-точка-в-кружке-96.png">
+						<img src="assets/images/icons/icons8-точка-в-кружке-96.png">
+					</section>
+				</div>
+	
+				<div class="card_sidebar">
+					<div class="card_sidebar_up">
+						<div>
+							<h5>Jameson</h5>
+							<img src="assets/images/icons/star.svg">
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+					</div>
+	
+					<div class="card_sidebar_down">
+						<section>
+							<span class="cost">12 000₽</span>
+							<input type="number" class="count" value="1" min="1">
+						</section>
+						<button><a href="">add to cart</a></button>
+					</div>
+				</div>
+			</div>
+	
+			<section class="catalog">
+				<h2 class="common-title">Catalog</h2>
+				<div class="catalog-cart_section">
+					<div>
+						<img src="assets/images/pexels-ylanite-koppens.jpg" alt="">
+						<section class="catalog-cart_section-content">
+							<h3>Jameson</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in neque quis libero fermentum dapibus. Fusce in porta libero. Morbi</p>
+							<section>
+								<span>10$</span>
+								<span>10 purchases</span>
+							</section>
+						</section>
+						<button><a href="wine-card.html">learn more</a></button>
+					</div>
+					<div>
+						<img src="assets/images/pexels-ylanite-koppens.jpg" alt="">
+						<section class="catalog-cart_section-content">
+							<h3>Jameson</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in neque quis libero fermentum dapibus. Fusce in porta libero. Morbi</p>
+							<section>
+								<span>10$</span>
+								<span>10 purchases</span>
+							</section>
+						</section>
+						<button><a href="wine-card.html">learn more</a></button>
+					</div>
+					<div>
+						<img src="assets/images/pexels-ylanite-koppens.jpg" alt="">
+						<section class="catalog-cart_section-content">
+							<h3>Jameson</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in neque quis libero fermentum dapibus. Fusce in porta libero. Morbi</p>
+							<section>
+								<span>10$</span>
+								<span>10 purchases</span>
+							</section>
+						</section>
+						<button><a href="wine-card.html">learn more</a></button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="assets/js/app.js"></script>
+
+	<footer>
+	    <div class="indent link-in-footer">
+	        <div>
+	            <a href="catalog.html">Вода</a>
+	            <a href="catalog.html">Вино</a>
+	            <a href="catalog.html">Красное</a>
+	            <a href="catalog.html">Белое</a>
+	            <a href="catalog.html">Шампанское</a>
+	            <a href="catalog.html">Розовое</a>
+	            <a href="catalog.html">Игристое</a>
+	        </div>
+	        <div>
+	            <a href="about-us.html">О компании</a>
+	            <a href="about-us.html">О продукции</a>
+	            <a href="about-us.html">Правовые документы</a>
+	        </div>
+	        <div>
+	            <span>Москва, улица Охотный ряд, дом 1</span>
+	            <span class="link-in-footer_phone">+7 495 692-62-66</span>
+	        </div>
+	        <div>
+	            <a href="https://ru-ru.facebook.com/" target="blank"><img src="assets/images/icons/icons8-facebook.svg" alt=""></a>
+	            <a href="https://www.instagram.com/?hl=ru" target="blank"><img src="assets/images/icons/icons8-instagram.svg" alt=""></a>
+	            <a href="https://twitter.com/?lang=ru" target="blank"><img src="assets/images/icons/icons8-twitter.svg" alt=""></a>
+	        </div>
+	    </div>
+	    <div class="lower-part-of-the-basement">
+	        <div class="indent lower-part-of-the-basement_wrap">
+	            <span class="btn-up">наверх</span>
+	            <span>© Габулян Т. Д., 2021</span>
+	        </div>
+	    </div>
+	</footer></body>
+</html>

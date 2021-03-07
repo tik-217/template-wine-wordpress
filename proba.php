@@ -1,0 +1,204 @@
+<?php wp_head() ?>
+
+</head>
+<body>
+
+	<header class="common-header">
+		<div class="indent">
+			<div class="common-header_wrapper">
+				<h1 class="common-header_wrapper_title"><a href="index.html">Wine Provinces</a></h1>
+				<menu class="common-header_wrapper_menu">
+					<ul class="common-header_wrapper_menu_page">
+						<a href="catalog.html">каталог</a>
+						<a href="proba.html">проба</a>
+						<a href="about-us.html">о нас</a>
+						<a href="contacts.html">контакты</a>
+					</ul>
+					<ul class="common-header_wrapper_menu_authorization">
+						<a href="login.html">войти</a>
+						<a href="sign-up.html">зарегистрироваться</a>
+					</ul>
+					<ul class="common-header_wrapper_menu_authorization_icons">
+						<a href="basket.html"><img src="assets/images/icons/icons8-shopping-bag-96.png" alt="shopping-bag"></a>
+						<a href="search.html"><img src="assets/images/icons/icons8-search.svg" alt="search"></a>
+					</ul>
+				</menu>
+	
+				<!-- mobile menu -->
+				<!-- the styles of location in the media-common file -->
+				<menu class="head_items-wrapper_up_menu_mob">
+					<nav>
+						<div class="head_items-wrapper_up_menu_mob_close">
+							<img src="assets/images/icons/icons8-умножение-96.png" class="close" alt="">
+						</div>
+						<div class="head_items-wrapper_up_menu_mob_search">
+							<input type="text" placeholder="Search">
+						</div>
+						<a href="catalog.html">каталог</a>
+						<a href="proba.html">проба</a>
+						<a href="about-us.html">о нас</a>
+						<a href="contacts.html">контакты</a>
+						<div class="auth">
+							<div>
+								<img src="assets/images/icons/icons8-login-96.png" alt="">
+								<a href="login.html">войти</a>
+							</div>
+							<div>
+								<img src="assets/images/icons/icons8-login-rounded-96.png" alt="">
+								<a href="sign-up.html">зарегистрироваться</a>
+							</div>
+						</div>
+					</nav>
+					<div class="head_items-wrapper_up_menu_mob_icons">
+						<a href="basket.html"><img src="assets/images/icons/icons8-shopping-bag-96.png" alt="shopping-bag"></a>
+						<a href="search.html"><img src="assets/images/icons/icons8-search.svg" alt="search"></a>
+						<img src="assets/images/icons/icons8-menu.svg" class="head_items-wrapper_up_menu_mob_button">
+					</div>
+				</menu>
+			</div>
+		</div>
+	</header>
+	
+	<div class="proba">
+		<div class="indent">
+			<div class="proba_content">
+				<h3 class="common-title">Proba</h3>
+	
+				<div class="wrap-slider">
+					<div class="proba_content_slider">
+						<div class="proba_content_slider_slides">
+							<img src="assets/images/pexels-anhzoe-tran-5800949.jpg">
+							<section class="proba_content_slider_slides_description">
+								<p>111 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</section>
+						</div>
+						<div class="proba_content_slider_slides">
+							<img src="assets/images/pexels-anhzoe-tran-5800949.jpg">
+							<section class="proba_content_slider_slides_description">
+								<p>222 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</section>
+						</div>
+						<div class="proba_content_slider_slides">
+							<img src="assets/images/pexels-anhzoe-tran-5800949.jpg">
+							<section class="proba_content_slider_slides_description">
+								<p>333 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</section>						
+						</div>
+					</div>
+	
+					<section class="proba_content_slider_slides_circle ">
+						<img class="active" src="assets/images/icons/icons8-точка-в-кружке-96.png">
+						<img src="assets/images/icons/icons8-точка-в-кружке-96.png">
+						<img src="assets/images/icons/icons8-точка-в-кружке-96.png">
+					</section>
+				</div>
+	
+				<section class="feedback">
+					<h2 class="common-title">Feedback</h2>
+					<div class="feedback_comments">
+						<div class="feedback_comments-item">
+							<img src="assets/images/icons/icons8-уолтер-уайт.svg" alt="">
+							<div class="feedback_comments-item_up">
+								<div class="feedback_comments-item_up_author">
+									<span>Святослав Онисимович</span>
+									<span>29.10.2019</span>
+								</div>
+								<p>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Rem earum tenetur deleniti consequatur maiores similique quos. Earum explicabo maxime assumenda voluptatum molestias, blanditiis nihil labore, itaque est expedita reprehenderit iure.</p>
+							</div>
+						</div>
+						<div class="feedback_comments-item">
+							<img src="assets/images/icons/icons8-мумия.svg" alt="">
+							<div class="feedback_comments-item_up">
+								<div class="feedback_comments-item_up_author">
+									<span>Алексей Павлович</span>
+									<span>04.09.2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, cupiditate fuga consequuntur at atque in culpa alias eos officia rerum sunt quaerat dolorum, perferendis sapiente dicta temporibus expedita! Voluptates, numquam.</p>
+							</div>
+						</div>
+						<div class="feedback_comments-item">
+							<img src="assets/images/icons/icons8-маска-анонимуса.svg" alt="">
+							<div class="feedback_comments-item_up">
+								<div class="feedback_comments-item_up_author">
+									<span>Андрей Смирнов</span>
+									<span>14.05.2020</span>
+								</div>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eligendi placeat, sapiente sit! Debitis minus impedit, harum reiciendis laborum enim repellat amet non mollitia deserunt tenetur modi! Minus minima, vitae.</p>
+							</div>
+						</div>
+					</div>
+					<button class="btn-leave-review">оставить отзыв</button>
+				
+					<form class="modal">
+						<div class="modal-window">
+							<div>
+								<input type="text" placeholder="Имя">
+								<input type="text" placeholder="Фамилия">
+							</div>
+							<input type="email" placeholder="Email" class="email">
+							<textarea placeholder="Отзыв ..."></textarea>
+							<button>отправить</button>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+	<script src="assets/js/app.js"></script>
+
+	<footer>
+	    <div class="indent link-in-footer">
+	        <div>
+	            <a href="catalog.html">Вода</a>
+	            <a href="catalog.html">Вино</a>
+	            <a href="catalog.html">Красное</a>
+	            <a href="catalog.html">Белое</a>
+	            <a href="catalog.html">Шампанское</a>
+	            <a href="catalog.html">Розовое</a>
+	            <a href="catalog.html">Игристое</a>
+	        </div>
+	        <div>
+	            <a href="about-us.html">О компании</a>
+	            <a href="about-us.html">О продукции</a>
+	            <a href="about-us.html">Правовые документы</a>
+	        </div>
+	        <div>
+	            <span>Москва, улица Охотный ряд, дом 1</span>
+	            <span class="link-in-footer_phone">+7 495 692-62-66</span>
+	        </div>
+	        <div>
+	            <a href="https://ru-ru.facebook.com/" target="blank"><img src="assets/images/icons/icons8-facebook.svg" alt=""></a>
+	            <a href="https://www.instagram.com/?hl=ru" target="blank"><img src="assets/images/icons/icons8-instagram.svg" alt=""></a>
+	            <a href="https://twitter.com/?lang=ru" target="blank"><img src="assets/images/icons/icons8-twitter.svg" alt=""></a>
+	        </div>
+	    </div>
+	    <div class="lower-part-of-the-basement">
+	        <div class="indent lower-part-of-the-basement_wrap">
+	            <span class="btn-up">наверх</span>
+	            <span>© Габулян Т. Д., 2021</span>
+	        </div>
+	    </div>
+	</footer></body>
+</html>
